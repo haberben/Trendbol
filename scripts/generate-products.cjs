@@ -266,8 +266,8 @@ function getRandomDate() {
 const generatedProducts = [];
 let globalId = 1;
 
-// Generate ~125-130 products per category to reach 1000+ items
-const targetPerCategory = 130;
+// Generate ~260 products per category to reach 2000+ items
+const targetPerCategory = 260;
 
 for (const cat of categories) {
   const catItems = itemsMap[cat.id];
